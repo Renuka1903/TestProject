@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="TestProject(failed)">
+    <classes>
+      <class name="com.tendable.AssessmentTest">
+        <methods>
+          <include name="task"/>
+        </methods>
+      </class> <!-- com.tendable.AssessmentTest -->
+    </classes>
+  </test> <!-- TestProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite">
+  <!--<listeners>
+    <listener class-name="com.SeleniumUtility.ExtentTestListener" />
+  </listeners>-->
+  <test thread-count="5" name="Test">
+    <groups>
+      <run>
+        <include name="prerequisites" />
+        <!--<include name="regression" />-->
+      </run>
+    </groups>
+    <classes>
+      <!--<class name="com.TestCases.LoginTests"/>
+      <class name="com.TestCases.AddCaseTests"/>-->
+      <class name="com.TestCases.ViewCaseTests"/>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <groups>
+      <run>
+        <include name="prerequisites" />
+        <include name="regression" />x
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestCases.LoginTests"/>
+    </classes>
+  </test> &lt;!&ndash; Test &ndash;&gt;
+</suite> &lt;!&ndash; Suite &ndash;&gt;-->
