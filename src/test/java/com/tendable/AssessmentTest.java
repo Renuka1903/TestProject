@@ -58,6 +58,7 @@ public class AssessmentTest {
             Assert.assertTrue(requestDemoPage);
             System.out.println("Request a Demo page is displayed as expected");
         }
+
         //Navigate to the "Contact Us" section, choose "Marketing", and complete the form—
         //excluding the "Message" field. On submission, an error should arise. Ensure your script
         //confirms the error message's appearance. If the error is displayed, mark the test as PASS. If
